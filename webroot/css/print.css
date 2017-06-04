@@ -1,0 +1,342 @@
+
+ body, html, .warper {
+    width: 100%;
+}
+.container::after, .container::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.container::after, .container::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.question_detail_head::after, .question_detail_head::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.question_detail_head::after, .question_detail_head::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.question_detail_head {
+    display: block;
+    margin: 0px 0;
+    width: 50%;
+}
+.favorite_list_button {
+    float: left;
+    width:90%;
+}
+.question_detail_content {
+    display: block;
+}
+.question_detail_head h2 {
+    color: #3bbbeb;
+    float: left;
+    font-family: "Roboto-Bold";
+    font-size: 14px;
+    padding-top: 0px;
+}
+.finances_list {
+   display: block;
+   padding-left: 40px;
+}
+
+.finances_list ul {
+    list-style: outside none upper-alpha;
+}
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.finances_list span input {
+    left: -53px;
+    position: relative;
+}
+.career_finances_row {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border-bottom: 1px solid #d7d7d7;
+    display: block;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.career_finances_head::after, .career_finances_head::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.career_finances_head::after, .career_finances_head::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.career_finances_head {
+    display: block;
+    margin-bottom: 0px;
+}
+.career_finances_head h2 {
+    color: #000000;
+    float: left;
+    font-family: "Roboto-Bold";
+    font-size: 16px;
+    width: 90%;
+    margin-bottom: -5px;
+}
+.finances_list ul li {
+    color: #505050;
+    font-size: 11px;
+    margin-bottom: -5px;
+}
+.finances_list ul {
+    list-style: outside none upper-alpha;
+    margin: 0;
+    padding: 0;
+}
+.positive_text {
+    display: block;
+    float: left;
+    /*margin-left: 7px;
+    margin-right: 70px;*/
+}
+.positive_content::after, .positive_content::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_content::after, .positive_content::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_content {
+    display: block;
+    margin-top: 10px;
+  /*  padding-left: 10px;*/
+}
+.reviews::after, .reviews::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.reviews::after, .reviews::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.reviews {
+    display: block;
+    padding-top: 0px;
+}
+.positive_list_content::after, .positive_list_content::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_list_content::after, .positive_list_content::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_list_content {
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+.positive_list_inner::after, .positive_list_inner::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_list_inner::after, .positive_list_inner::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_list_inner {
+    display: block;
+}
+.positive_left_box {
+    float: left;
+    width: 48%;
+}
+.positive_right_box {
+    float: right;
+    width: 48%;
+}
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.positive_list_content li {
+    display: block;
+}
+.positive_score::after, .positive_score::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_score::after, .positive_score::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_score::after, .positive_score::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_score::after, .positive_score::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.positive_list_content li input {
+    border: 1px solid #dedede;
+    font-size: 14px;
+    padding: 10px;
+    width: 95%;
+}
+.positive_score {
+    display: block;
+}
+.positive_score {
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+.positive_score li {
+    float: left;
+    width: 50%;
+}
+.add_survey_button {
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+.add_survey_button {
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+.add_survey_button input {
+    background: #3bbbeb none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto-Bold";
+    font-size: 28px;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 40px;
+}
+button, input[type="submit"] {
+    cursor: pointer;
+}
+input[type="submit"] {
+    transition-duration: 0.5s;
+}
+.add_survey_button a {
+    background: #3bbbeb none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto-Bold";
+    font-size: 28px;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 40px;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.add_survey_button .proscons_score {
+    background: #000000 none repeat scroll 0 0;
+    border-radius: 4px;
+    display: inline-block;
+    font-family: "Roboto-Bold";
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 313px;
+}
+.positive_score input {
+    border: 1px solid #dedede;
+    margin-left: 10px;
+    padding: 0px;
+    width: 50px;
+}
+.add_survey_button .proscons_score span {
+    color: #ffffff;
+    display: block;
+    font-family: "Roboto-Reguler";
+    font-size: 18px;
+}
+.add_survey_button .proscons_score p {
+    color: #ffffff;
+    display: block;
+    font-size: 16px;
+}
+.career_finances_head {
+    display: block;
+    margin-bottom: 0px;
+}
+.positive_list_content li a {
+    color: #68caf0;
+    text-decoration: underline;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.add_survey_button {
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    text-align: center;
+}
+.logo {
+    float: left;
+}
+
+.proscons_score{display:inline-block; width:177px; padding:10px; text-align:center; background:#000000;border-radius:4px; font-family:"Roboto-Bold";}
+.proscons_score span{font-size:18px; color:#ffffff; display:block; font-family:"Roboto-Reguler";}
+.proscons_score p{display:block; font-size:16px; color:#ffffff;}
+.feedback_content{display:block; text-align:center; padding:30px 0px;}
+.feedback_box_bg{display:inline-block; width:675px; text-align:center;}
+.feedback_box_head{display:block; text-align:center; padding-bottom:50px;}
+.feedback_box_head h2{font-size:20px; color:#333333; text-transform:uppercase; font-family:"Roboto-Bold";}
+.positive_negative_button{display:block;}
+.positive_negative_button:after,.positive_negative_button:before{display:table; clear:both; content:"";}
+.positive_negative_button ul li{float:left; width:48%;}
+.positive_negative_button ul li:last-child{float:right;}
+.positive_negative_button ul li a{display:block; height:75px; line-height:75px; border-radius:4px; font-size:23px; color:#ffffff; font-family:"Roboto-Bold"; background:#000000; text-align:left; padding-left:20px; padding-right:60px; text-transform:uppercase;}
+.positive_negative_button ul li.positive a{background:url(../img/plus01.png) no-repeat right center #000000;}
+.positive_negative_button ul li.negative a{background:url(../img/mins01.png) no-repeat right center #000000;}
+.positive_negative_rating{display:block; margin-top:10px;}
+.positive_negative_inner{display:inline-block;}
+.positive_rating{float:left;}
+.positive_rating a{float:left; margin-right:2px;}
+.positive_rating a:last-child{margin-right:0;}
+.negative_rating{float:left;}
+.negative_rating a{float:left; margin-right:2px;}
+.negative_rating a:last-child{margin-right:0;}
+
+/* Hide various parts from the site*/
+.menu_toggel,.head_right,footer,.inner_page_header,.add_survey_button a,.add_survey_button input
+{display:none;}

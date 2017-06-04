@@ -1,0 +1,143 @@
+
+ body, html, .warper {
+    width: 100%;
+     font-family: "Roboto-Reguler";
+}
+.compatibility_report_content {
+    display: block;
+    width: 100%;
+}
+.compatility_survey_head {
+    display: block;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.sender_receiver_content::after, .sender_receiver_content::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.sender_receiver_content::after, .sender_receiver_content::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.sender_receiver_content {
+    display: block;
+}
+
+.answer_questions {
+    background: #f8f8f9 none repeat scroll 0 0;
+    display: block;
+    padding-bottom: 45px;
+    padding-top: 15px;
+    text-align: center;
+}
+.container::after, .container::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.container::after, .container::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.compatility_survey_head .container {
+    position: relative;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.compatility_survey_head h2 {
+    color: #000000;
+    font-family: "Roboto-Bold";
+    font-size: 30px;
+}
+.compatility_survey_head span {
+    color: #3bbbeb;
+    font-family: "RobotoMedium";
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    
+}
+.sender_receiver_box {
+    background: #8c8a8a none repeat scroll 0 0;
+    float: left;
+    width: 50%;
+}
+
+.sender_receiver_box.receiver_box {
+    background: #3bbbeb none repeat scroll 0 0;
+}
+.sender_receiver_box {
+    background: #8c8a8a none repeat scroll 0 0;
+    float: left;
+    width: 50%;
+}
+.sender_receiver_head {
+    background: #5b5b5b none repeat scroll 0 0;
+    display: block;
+    text-align: center;
+}
+.sender_receiver_list {
+    display: block;
+    padding: 55px;
+}
+.sender_receiver_head h2 {
+    color: #ffffff;
+    font-family: "Roboto-Bold";
+    font-size: 36px;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+.sender_receiver_user {
+    display: block;
+    text-align: center;
+}
+.sender_receiver_title {
+    display: block;
+    padding: 14px 0;
+}
+.sender_receiver_user a {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    display: inline-block;
+    height: 110px;
+    overflow: hidden;
+    width: 110px;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.sender_receiver_title a {
+    color: #ffffff;
+    font-size: 22px;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.sender_receiver_row {
+    border-bottom: 1px solid #9d9c9c;
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+img {
+    height: 100%;
+    width: 100%;
+    border: medium none;
+    max-width: 100%;
+    outline: medium none;
+}
+/* Hide various parts from the site*/
+.menu_toggel,.head_right,footer,.inner_page_header,.add_survey_button a,.add_survey_button input
+{display:none;}

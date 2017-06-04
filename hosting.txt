@@ -1,0 +1,13 @@
+a2hosting.com
+username: tkoles@gmail.com
+password: Fareast@1
+
+Self-Match Login Info
+cPanel Login:
+Link: https://wwwls16.a2hosting.com:2083/logout/?locale=en 
+Username: selfmatc
+Password: Lifetime@123
+
+ftp account:
+username: subotica@self-match.com
+password: +bly~kfS]r0X

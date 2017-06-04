@@ -1,0 +1,14 @@
+self-match admin
+username: self_match@mailinator.com
+password: 123456
+
+Stripe account
+username: admin@self-match.com
+password: Lifetime@123
+debit card : 4427422118217531
+expiry : Jan 2020
+vcc : 957
+
+site members
+rickmeyers85@yahoo.com$$$ Rmeyers@16
+lisacarp53@yahoo.com$$$ Lcarp@16

@@ -1,0 +1,90 @@
+{
+  "id": "evt_1A5lQ2GRKJW92GJgk4KwG3p8",
+  "object": "event",
+  "api_version": "2016-07-06",
+  "created": 1491526662,
+  "data": {
+    "object": {
+      "id": "ch_1A5lQ1GRKJW92GJgdi6WJDJ8",
+      "object": "charge",
+      "amount": 499,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "balance_transaction": "txn_1A5lQ2GRKJW92GJgVqo9NxCx",
+      "captured": true,
+      "created": 1491526661,
+      "currency": "usd",
+      "customer": "cus_AEzfH7Xwc8zbjA",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": "in_1A5kSQGRKJW92GJghJ5haobg",
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "receipt_email": "testingbydev@gmail.com",
+      "receipt_number": "2642-8087",
+      "refunded": false,
+      "refunds": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/charges/ch_1A5lQ1GRKJW92GJgdi6WJDJ8/refunds"
+      },
+      "review": null,
+      "shipping": null,
+      "source": {
+        "id": "card_19uVgKGRKJW92GJgVpHI6eut",
+        "object": "card",
+        "address_city": "121795",
+        "address_country": null,
+        "address_line1": "1914 Riverlawn Dr.",
+        "address_line1_check": "pass",
+        "address_line2": "",
+        "address_state": "3460",
+        "address_zip": "77339",
+        "address_zip_check": "pass",
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_AEzfH7Xwc8zbjA",
+        "cvc_check": null,
+        "dynamic_last4": null,
+        "exp_month": 3,
+        "exp_year": 2019,
+        "fingerprint": "Ae9S8IUN0trxyfrf",
+        "funding": "credit",
+        "last4": "9431",
+        "metadata": {
+        },
+        "name": "Tatiana Kolesnikov",
+        "tokenization_method": null
+      },
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "status": "succeeded",
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": null,
+  "type": "charge.succeeded"
+}

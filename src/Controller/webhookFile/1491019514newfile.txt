@@ -1,0 +1,90 @@
+{
+  "id": "evt_1A3dTbGRKJW92GJgy4r3AzAW",
+  "object": "event",
+  "api_version": "2016-07-06",
+  "created": 1491019475,
+  "data": {
+    "object": {
+      "id": "ch_1A3dTaGRKJW92GJgOV2YhUmK",
+      "object": "charge",
+      "amount": 999,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "balance_transaction": "txn_1A3dTbGRKJW92GJgzch2SgQL",
+      "captured": true,
+      "created": 1491019474,
+      "currency": "usd",
+      "customer": "cus_ALml905BFFAbua",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": "in_1A3cWVGRKJW92GJgfvuS0FhA",
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "receipt_email": "mkoles@mailinator.com",
+      "receipt_number": "2506-6982",
+      "refunded": false,
+      "refunds": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/charges/ch_1A3dTaGRKJW92GJgOV2YhUmK/refunds"
+      },
+      "review": null,
+      "shipping": null,
+      "source": {
+        "id": "card_1A15BZGRKJW92GJgYTNSsab0",
+        "object": "card",
+        "address_city": "",
+        "address_country": null,
+        "address_line1": "",
+        "address_line1_check": null,
+        "address_line2": "",
+        "address_state": "",
+        "address_zip": "",
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_ALml905BFFAbua",
+        "cvc_check": null,
+        "dynamic_last4": null,
+        "exp_month": 1,
+        "exp_year": 2020,
+        "fingerprint": "jNpNGZvSuonzSgWa",
+        "funding": "debit",
+        "last4": "7531",
+        "metadata": {
+        },
+        "name": "",
+        "tokenization_method": null
+      },
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "status": "succeeded",
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": null,
+  "type": "charge.succeeded"
+}
